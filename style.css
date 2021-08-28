@@ -18,7 +18,7 @@ img{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  color: #fce7c7;
+  color: white;
 }
 
 .container {
@@ -58,6 +58,7 @@ h3 {
 
 .button{
   margin-top: 10px;
+  border-radius: 3px;
 }
 
 .button a {
@@ -65,6 +66,7 @@ h3 {
   transition: 0.3s;
   padding: 5px 10px;
   color: #101024;
+  border-radius: 3px;
 }
 
 .button a:hover{
@@ -72,6 +74,7 @@ h3 {
   transition: 0.3s;
   padding: 5px 10px;
   color: #101024;
+  border-radius: 3px;
 }
 
 .wrapper {
@@ -83,6 +86,7 @@ h3 {
 }
 
 .purchase {
+  text-decoration: none;
   justify-content: space-around;
   text-align: center;
   display: flex;
@@ -93,22 +97,58 @@ h3 {
 }
 
 .box {
-  background-color: white;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  padding: 10px 50px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  padding: 20px 70px;
   font-size: 30px;
   margin: 10px;
 }
 
 .box h4{
-  color: #101024;
+  color: #eea51e;
   font-size:20px;
+}
+
+.box .button a{
+  font-size:20px;
+  background-color: #eea51e;
+  padding: 5px 20px;
 }
 
 @media (max-width:800px) {
   .purchase {
     flex-direction: column;
   }
+}
+
+.button2{
+  margin-top: 10px;
+  border-radius: 3px;
+  font-size: 20px
+}
+
+.button2 a {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  transition: 0.3s;
+  padding: 5px 20px;
+  color: grey;
+  border-radius: 3px;
+}
+
+.button2 a:hover{
+  background-color: darkgrey;
+  transition: 0.3s;
+  padding: 5px 20px;
+  color: #101024;
+  border-radius: 3px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  padding: 50px 30px 30px 30px;
+  color: white;
 }
