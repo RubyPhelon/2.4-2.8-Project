@@ -105,7 +105,7 @@ h3 {
 }
 
 .box h4{
-  color: #eea51e;
+  color: #4281f5;
   font-size:20px;
 }
 
@@ -113,6 +113,19 @@ h3 {
   font-size:20px;
   background-color: #eea51e;
   padding: 5px 20px;
+}
+
+.box .button a:hover{
+  background-color: #ffbc40;
+  transition: 0.3s;
+  padding: 5px 20px;
+  color: #101024;
+  border-radius: 3px;
+}
+
+.box p {
+  font-size:15px;
+  color:grey;
 }
 
 @media (max-width:800px) {
